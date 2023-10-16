@@ -1,0 +1,74 @@
+
+.Customer{
+    width: 1440px;
+    box-sizing: border-box;
+    background-color: #222831;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.Customer h1{
+    text-align: center;
+    font-family: 'Grand Hotel', cursive;
+    color: white;
+    font-size: 88px;
+    font-weight:initial;
+    letter-spacing: -0.1px;
+    margin-left: -6px;
+}
+.Pictures{
+    margin-left: 216px;
+    margin-right: 220px;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.Names{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;   
+    margin-left: 320px;
+    margin-right: 307px;
+}
+.Paragr{
+    margin-top: 16px;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 161px;     
+    margin-right: 165px;
+}
+.text{
+    width: 490px;
+}
+
+.lowertext{
+    margin-top: 9px;
+}
+.heading{
+    height: 170px;
+}
+
+.Customer h2{
+    text-align: center;
+    font-family: 'Grand Hotel', cursive;
+    color: white;
+    font-size: 50px;   
+    font-weight:normal;
+}
+.Customer h3{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:lighter;
+    font-size: 25px;
+    line-height: 27.5px;
+    letter-spacing: 1px;
+    color: white;
+    
+
+}
+

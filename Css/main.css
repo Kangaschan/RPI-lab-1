@@ -1,0 +1,7 @@
+
+.siteWrapper{
+    display: flex;
+    width: 1440;
+    flex-direction: column;
+}
+
