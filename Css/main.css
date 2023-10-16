@@ -6,5 +6,11 @@
 }
 html {
     background-color: #222831;
+    background-image: url(/images/background.svg);
     width: 1440px;
+    height: 7046px;
+}
+
+.siteWrapper{
+    height: 100%;
 }

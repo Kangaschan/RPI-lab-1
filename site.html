@@ -13,7 +13,7 @@
     <link href="css/Customer.css" rel="stylesheet" type="text/css">
     <link href="css/WeAreOpen.css" rel="stylesheet" type="text/css">
     <link href="css/OurBranches.css" rel="stylesheet" type="text/css">
-    <link href="css/Footer.css" rel="stylesheet" type="text/css">
+    <link href="css/footer&header.css" rel="stylesheet" type="text/css">
     <link href="css/navigation.css" rel="stylesheet" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,6 +22,7 @@
 </head>
 <body>
     <div class = "siteWrapper">
+    <header class="header">
     <nav class="navigation">
         <ul>
             <li><a href="#" class="current-page">Home</a></li>
@@ -31,10 +32,11 @@
             <li><a href="#">Shop</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
-        <img src="/images/logo" alt="Logo">
     </nav>
+        <img src="/images/logo.svg" alt="Logo">
+    </header>
     <section class = "CoffeeTime">
-        <img src="/images/img_coffetime.png">
+        <img src="/images/img_coffetime.png" alt="Coffee">
         <h2>Coffee Time</h2>
         <h3>YOUR HEADLINE</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -43,6 +45,7 @@
         <form>
             <button>Order Now</button>
         </form>
+        <img src="images/shape_bottomCoffeeTime.svg" class="overlap-shape" alt="">
     </section>
     <section class="BlackCoffee"></section>
     <section class="HotCoffee"></section>
@@ -51,7 +54,45 @@
     <section class="Customer"></section>
     <section class="WeAreOpen"></section>
     <section class="OurBranches"></section>
-    <section class="Footer"></section>
+
     </div>
+    <footer class="footer">
+        <img src="images/logo.svg" alt="Logo">
+        <nav class="navigation-vert">
+            <h3>Contact Us.</h3>
+            <ul>
+                <li><a href="#">Support</a></li>
+                <li><p>your_id@gmail.com</p></li>
+            </ul>
+        </nav>
+        <nav class="navigation-vert">
+            <h3>Information.</h3>
+            <ul>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Branches</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Map</a></li>
+            </ul>
+        </nav>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <nav class="socials">
+            <ul>
+                <li><a href="#"><img src="images/icons/Facebook.svg" class="ficon"></a></li>
+                <li><a href="#"><img src="images/icons/Instagram.svg"></a></li>
+                <li><a href="#"><img src="images/icons/Twitter.svg"></a></li>
+                <li><a href="#"></a><img src="images/icons/Youtube.svg"></li>
+            </ul>
+        </nav>
+    </footer>
 </body>
 </html>
