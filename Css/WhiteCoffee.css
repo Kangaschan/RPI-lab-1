@@ -1,0 +1,79 @@
+
+*{margin: 0; padding:0}
+.WhiteCoffee{
+    box-sizing: border-box;
+    background-color: #222831;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+.wrapper{
+    display: flex;
+    
+}
+.left{
+    width: 700px;
+}
+.wrapper3{
+    padding-top: 133px;
+    padding-left: 133px;
+    width: 340px;
+    justify-content: column;
+
+}
+.right{    
+    width: 740px;   
+}
+.wrapper4{
+    padding-top: 4px;
+    padding-right: 170px;
+    justify-content: column;
+
+}
+.WhiteCoffee button{
+    margin-left: 2px;
+    margin-top: 98px;
+    background-color:#29a19c; /* Green */
+    border: none;
+    height: 58px;
+    width: 247px;
+    border-radius:15px;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:700;
+    letter-spacing: 0.2px;
+    font-size: 33px;
+    
+
+    
+}
+.WhiteCoffee h1{
+    font-family: 'Grand Hotel', cursive;
+    color: white;
+    font-size: 125px;
+    font-weight:initial;
+    letter-spacing: 5px;
+    line-height: 0.9;
+}
+.WhiteCoffee pre{padding-top: 38px;
+    text-align: right;
+    
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 21px;
+    font-weight:initial;
+    letter-spacing: 1.55px;
+    line-height: 1.84; 
+}
+.WhiteCoffee h2{ text-align: right;
+    
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 21px;
+    font-weight:initial;
+    letter-spacing: 1.55px;
+    line-height: 1.84;    }
+.WhiteCoffee img{
+    padding-left: 62px;
+}
+
