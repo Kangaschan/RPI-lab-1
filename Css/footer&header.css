@@ -1,5 +1,5 @@
 .header {
-    position: sticky;
+    position: static;
     top: 0;
     z-index: 100;
     background-color: #222831;
@@ -25,19 +25,52 @@
     text-underline-style: thick;
 }
 
+
+
+
 .footer{
-    width: 100%;
-    height: 400px;
+    position: absolute;
+    top: 6620px;
+    width: 1440px;
+    height: 428px;
     background-color: #29a19b;
+
 }
-.footer .navigation {}
-.footer .navigation ul{ }
-.footer .navigation li{ margin-left: 59px; }
+.wrap {display: inline-flex; width:100%; margin-bottom: 70px;}
+
+.footer img{
+    align-self: flex-start;
+    margin-left: 60px;
+    width: 50%;
+    margin-right: 370px;
+}
+
+.footer .navigation-vert{
+    font-size: 23px;
+    align-self: flex-start;
+    margin-left: 50px;
+    margin-right: 75px;
+}
+.footer .navigation-vert h3 {
+    font-size: 35px;
+}
+
+
+.footer .navigation-vert ul{margin-top: 50px}
+.footer .navigation-vert li{margin-bottom: 10px;}
+
+
+
+.footer .navigation {align-self: flex-end}
+.footer .navigation ul{ margin-top: 10px; margin-right: 2px;}
+.footer .navigation li{ margin-left: 58px; }
 .footer .navigation a { font-size: 20px; letter-spacing: 1px; margin: 0}
 
-.socials {float: right; margin-right: 40px}
+.socials {align-self: flex-end; margin-left: 320px}
 .socials ul{list-style-type: none}
 .socials li{float: left;  height: 22px; width: 67px; text-align: center}
 .socials a {}
-.socials img{max-height: 100%; max-width: 100%;}
-.socials .ficon{max-height: 120%; margin-top: -6px;}
+.footer .socials img{max-height: 100%; max-width: 100%;}
+.socials .ficon{max-height: 120%; margin-top: 0}
+
+img #shape-above-footer{}
