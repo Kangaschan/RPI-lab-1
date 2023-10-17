@@ -38,21 +38,38 @@
 }
 .wrap {display: inline-flex; width:100%; margin-bottom: 70px;}
 
+.wrap1 {
+    display: grid;
+    width:100%;
+    margin-bottom: 70px;
+    grid-template-columns: 400px 15.4fr 8.7fr 1.9fr;
+    justify-items: center;
+}
+.wrap2 {
+    margin-top: 12px;
+    display: inline-grid;
+    width:100%;
+    margin-bottom: 70px;
+    grid-template-columns: 14.6fr 6.2fr 6.4fr;
+}
+
 .footer img{
-    align-self: flex-start;
-    margin-left: 60px;
-    width: 50%;
-    margin-right: 370px;
+    margin-left: 12px;
+    width: 75%;
+    /*margin-left: 60px;*/
+    /*width: 50%;*/
+    /*margin-right: 370px;*/
 }
 
 .footer .navigation-vert{
     font-size: 23px;
-    align-self: flex-start;
-    margin-left: 50px;
-    margin-right: 75px;
+    justify-self: flex-end;
+    /*margin-left: 50px;*/
+    /*margin-right: 75px;*/
 }
 .footer .navigation-vert h3 {
-    font-size: 35px;
+    font-size: 34px;
+    letter-spacing: 1px;
 }
 
 
@@ -60,17 +77,14 @@
 .footer .navigation-vert li{margin-bottom: 10px;}
 
 
-
-.footer .navigation {align-self: flex-end}
-.footer .navigation ul{ margin-top: 10px; margin-right: 2px;}
+.footer .navigation {justify-self: start}
+.footer .navigation ul{margin-right: 2px;}
 .footer .navigation li{ margin-left: 58px; }
 .footer .navigation a { font-size: 20px; letter-spacing: 1px; margin: 0}
 
-.socials {align-self: flex-end; margin-left: 320px}
+.socials {justify-self: center;}
 .socials ul{list-style-type: none}
 .socials li{float: left;  height: 22px; width: 67px; text-align: center}
 .socials a {}
 .footer .socials img{max-height: 100%; max-width: 100%;}
 .socials .ficon{max-height: 120%; margin-top: 0}
-
-img #shape-above-footer{}
