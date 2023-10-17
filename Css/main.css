@@ -13,4 +13,14 @@ html {
 body{
     margin: auto;
 }
+.back_icons{
+    width: 1440px;
+    position: absolute;
+    margin: auto;
+}
+.back_icons img{
+    position: absolute;
+    z-index: 10;
+}
+
 
