@@ -5,6 +5,7 @@
     height: 600px;
     text-align: center;
     padding-top: 10px;
+    padding-left: 2px;
 
 }
 .TimeTable{
@@ -17,36 +18,33 @@
 .WeAreOpen__Title{
     font-family: 'Grand Hotel', cursive;
     color: #ffff;
-    font-size: 70px;
+    font-size: 98px;
+    letter-spacing: 3.8px;
     font-weight: 400;
+    margin-bottom: 30px;
 }
 
 .WeAreOpen__Workday{
     font-family: 'Montserrat', sans-serif;
     color: #ffff;
-    font-size: 25px;
+    font-size: 38px;
+    letter-spacing: -0.2px;
     font-weight: 700;
+    padding-top: 47px;
+    padding-right: 7px;
 }
 .WorkdayTime{
     font-family: 'Montserrat', sans-serif;
     color: #ffff;
-    font-size: 30px;
+    font-size: 38px;
     font-weight: 400;
-    margin-top: -20px;
+    margin-top: -21px;
+    padding-top: 22px;
+    letter-spacing: -0.2px;
+    padding-right: 10px;
+   
 }
 .WeekEnd{
     margin-top: 50px;
 }
-.WeAreOpen__Weekends{
-    font-family: 'Montserrat', sans-serif;
-    color: #ffff;
-    font-size: 25px;
-    font-weight: 700;
-}
-.WeekendsTime{
-    font-family: 'Montserrat', sans-serif;
-    color: #ffff;
-    font-size: 30px;
-    font-weight: 400;
-    margin-top: -20px;
-}
+
