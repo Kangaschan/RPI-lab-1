@@ -14,9 +14,11 @@
     font-family: 'Grand Hotel', cursive;
     color: white;
     font-size: 88px;
-    font-weight:initial;
+    font-weight: initial;
     letter-spacing: -0.1px;
-    margin-left: -6px;
+    margin-left: -11px;
+    margin-top: -8px;
+
 }
 .Pictures{
     margin-left: 216px;

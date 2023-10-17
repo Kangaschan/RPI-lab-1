@@ -1,10 +1,10 @@
 .WeAreOpen{
-    background: url("../images/backGround3_04.jpg")
-    center no-repeat;
+    /*background: url("../images/backGround3_04.jpg")*/
+    /*center no-repeat;*/
+    background:#29a19c;
     background-size: cover;
-    height: 600px;
+    height: 535px;
     text-align: center;
-    padding-top: 10px;
     padding-left: 2px;
 
 }

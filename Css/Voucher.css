@@ -1,8 +1,8 @@
 
 .Voucher{
-    background: url("../images/background1_02.jpg")
-    center no-repeat;
-    background-size: cover;
+    /*background: url("../images/background1_02.jpg") center no-repeat;*/
+    /*background-size: cover;*/
+    background:#222831;
     height: 720px;
     text-align: center;
 }
@@ -26,12 +26,14 @@
     flex-direction: column;
 }
 .getVoucher{
+    margin-left: -5px;
+    margin-top: -10px;
     background-color: #29a19c;
     border-radius: 15px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 31px;
-    letter-spacing: 2px;
+    letter-spacing: 1.1px;
     color: #ffff;
     width: 360px;
     height: 60px;

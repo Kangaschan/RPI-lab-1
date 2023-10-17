@@ -1,7 +1,8 @@
 
 .OurBranches{
-    background: url("../images/backgraund5_05.jpg")
-    center no-repeat;
+    /*background: url("../images/backgraund5_05.jpg")*/
+    /*center no-repeat;*/
+    background: #222831;
     background-size: cover;
     height: 1058px;
     display: flex;
@@ -13,9 +14,10 @@
 
     font-family: 'Grand Hotel', cursive;
     color: #ffff;
-    font-size: 70px;
+    letter-spacing: 5px;
+    font-size: 82px;
     font-weight: 400;
-    padding-top: 160px;
+  //  padding-top: 145px;
     text-align: center;
 }
 .Branches{
@@ -27,7 +29,10 @@
 //gap: 30px;
 }
 .Branches__item{
+    display: flex;
     width: 285px;
+    flex-direction: column;
+    gap: 45px;
 }
 
 .Branches__Title{
@@ -36,7 +41,7 @@
     border-radius: 15px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 31px;
     color: #ffff;
     width: 248px;
     height: 60px;
@@ -44,9 +49,8 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
-    transition: background-color 0.2s,
-    color 0.2s;
+    transition: background-color 0.2s, color 0.2s;
+    letter-spacing: 3px;
 }
 
 .Branches__Title:hover{
@@ -55,13 +59,14 @@
 }
 
 .Branches__Text{
+    margin-top: -10px;
     margin-left: -27px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     color: #ffff;
-    font-size: 10px;
+    font-size: 16px;
     font-weight: 400;
-    width: 333px;
-    height: 125px;
-    line-height: 2;
+    width: 341px;
+    height: 112px;
+    line-height: 01.7;
 }
