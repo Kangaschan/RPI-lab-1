@@ -55,7 +55,10 @@
     font-size: 33px;
     color: white;
 }
-
+.CoffeeTime button:hover{
+    background:white;
+    color:black;
+}
 .CoffeeTime .overlap-shape{
     margin-top: -158px;
     position: relative;

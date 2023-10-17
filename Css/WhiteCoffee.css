@@ -42,9 +42,11 @@
     font-weight:700;
     letter-spacing: 0.2px;
     font-size: 33px;
-    
 
-    
+}
+.WhiteCoffee button:hover{
+    background:white;
+    color:black;
 }
 .WhiteCoffee h1{
     font-family: 'Grand Hotel', cursive;
