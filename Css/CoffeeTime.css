@@ -1,5 +1,6 @@
 .CoffeeTime{
-    color: white;
+    background:#222831;
+    //color: white;
     height: 690px;
 }
 
@@ -9,6 +10,7 @@
 }
 
 .CoffeeTime h2{
+    color:white;
     margin-left: 48px;
     margin-top: 12px;
     font-family: "Grand Hotel", cursive;
@@ -19,6 +21,7 @@
 }
 
 .CoffeeTime h3{
+    color:white;
     margin-top: 26px;
     margin-left: 56px;
     font-family: "Montserrat", sans-serif;
@@ -28,6 +31,7 @@
 }
 
 .CoffeeTime p{
+    color:white;
     margin-top: 14px;
     margin-left: 58px;
     width: 510px;
@@ -55,4 +59,10 @@
 .CoffeeTime .overlap-shape{
     margin-top: -158px;
     position: relative;
+}
+.CT-wave{
+    padding-top: 40px;
+    width: 1440px;
+    position: absolute;
+   // left: -198px;
 }

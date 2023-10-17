@@ -1,20 +1,16 @@
-body{
-    //width: 100%;
-    width: 1440px;
-    height: 750px;
-}
+
 .Voucher{
     background: url("../images/background1_02.jpg")
     center no-repeat;
     background-size: cover;
     height: 720px;
     text-align: center;
-
 }
 .Voucher__title{
     font-family: 'Grand Hotel', cursive;
     color: #ffff;
-    font-size: 95px;
+    font-size: 130px;
+    margin-left: -54px;
     font-weight: 400;
     text-align: center;
     padding-top: 20px;
@@ -22,7 +18,6 @@ body{
 
 .shadow{
     box-shadow: -10px 10px 20px 1px black;
-    margin-top: -50px;
 }
 .btn{
     padding-top: 50px;
@@ -35,7 +30,8 @@ body{
     border-radius: 15px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 31px;
+    letter-spacing: 2px;
     color: #ffff;
     width: 360px;
     height: 60px;

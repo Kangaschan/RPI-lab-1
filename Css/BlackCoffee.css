@@ -1,12 +1,13 @@
 
 .BCWhole-Block{
     display: flex;
-    background:#29a19c;
+    background: #29a19c;
     width: 1440px;
-    height: 900px;
-    align-items:center;
+    height: 719px;
+    align-items: center;
     justify-content: center;
-    margin: auto
+    margin: auto;
+    padding-bottom: 88px;
 }
 .BCOrder-Now{
     width: 1170px;
@@ -81,4 +82,5 @@
     font-size: 19pt;
     letter-spacing: 0;
     text-align: right;
+    position: relative;
 }
