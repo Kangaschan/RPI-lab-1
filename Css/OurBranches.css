@@ -10,6 +10,7 @@
 
 }
 .OurBranches__Title{
+
     font-family: 'Grand Hotel', cursive;
     color: #ffff;
     font-size: 70px;
@@ -30,6 +31,7 @@
 }
 
 .Branches__Title{
+    margin: auto;
     background-color: #29a19c;
     border-radius: 15px;
     font-family: 'Montserrat', sans-serif;
@@ -53,6 +55,7 @@
 }
 
 .Branches__Text{
+    margin-left: -27px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     color: #ffff;

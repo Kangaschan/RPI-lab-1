@@ -1,0 +1,58 @@
+.CoffeeTime{
+    color: white;
+    height: 690px;
+}
+
+.CoffeeTime img{
+    float: right;
+    margin-top: -10px;
+}
+
+.CoffeeTime h2{
+    margin-left: 48px;
+    margin-top: 12px;
+    font-family: "Grand Hotel", cursive;
+    font-size: 153px;
+    font-weight: normal;
+    letter-spacing: 6px;
+    white-space: nowrap;
+}
+
+.CoffeeTime h3{
+    margin-top: 26px;
+    margin-left: 56px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 33px;
+    letter-spacing: 2px;
+}
+
+.CoffeeTime p{
+    margin-top: 14px;
+    margin-left: 58px;
+    width: 510px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    font-size: 14.5px;
+    letter-spacing: 1px;
+    line-height: 169%;
+}
+
+.CoffeeTime button{
+    margin-left: 56px;
+    margin-top: 20px;
+    width: 247px;
+    height: 58px;
+    background-color: #29a19b;
+    border-style: none;
+    border-radius: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 33px;
+    color: white;
+}
+
+.CoffeeTime .overlap-shape{
+    margin-top: -158px;
+    position: relative;
+}

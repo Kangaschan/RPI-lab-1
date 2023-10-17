@@ -17,15 +17,18 @@
     align-items: center;
 }
 .HC-left-part{
+    display: flex;
+    flex-direction: column;
     width: 620px;
     height: 700px;
 }
 
 
 .HC-Hot-coffee-img{
-    margin-left:62px;
-    margin-top:65px;
-    scale: 1.05;
+    float: right;
+    margin-left: 74px;
+    margin-top: -10px;
+
 }
 .HC-Right-part-text{
     line-height: 152%;

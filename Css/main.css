@@ -1,7 +1,15 @@
-
+html {
+    background-color: #222831;
+    width: 1440px;
+}
 .siteWrapper{
+
     display: flex;
-    width: 1440;
+    width: 1440px;
     flex-direction: column;
+
+}
+body{
+    margin: auto;
 }
 
