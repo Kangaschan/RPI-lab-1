@@ -1,0 +1,43 @@
+.navigation ul{
+    /*display: inline-block;*/
+    float: left;
+    list-style-type: none;
+
+
+}
+.navigation li{
+    display: inline-block;
+    text-align: center;
+}
+.navigation a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.navigation-vert{
+    color: white;
+    float: right;
+    width: 329px;
+}
+.navigation-vert h3{
+    color: inherit;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+.navigation-vert ul{
+    list-style-type: none;
+}
+.navigation-vert a {
+    color: inherit;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+}
+.navigation-vert p{
+    color: inherit;
+    font-family: "Montserrat", sans-serif;
+}
+
