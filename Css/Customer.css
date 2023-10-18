@@ -3,7 +3,7 @@
     width: 1440px;
     box-sizing: border-box;
     background-color: #222831;
-    padding-top: 60px;
+    padding-top: 52px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,32 +16,26 @@
     font-size: 88px;
     font-weight: initial;
     letter-spacing: -0.1px;
-    margin-left: -11px;
-    margin-top: -8px;
+    margin-left: -9px;
 
 }
-.Pictures{
-    margin-left: 216px;
-    margin-right: 220px;
-    display: flex; 
+.CustWrap{
+    display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 40px;
+    justify-content: space-evenly;
 }
-.Names{
-    display: flex; 
-    flex-direction: row;
-    justify-content: space-between;   
-    margin-left: 320px;
-    margin-right: 307px;
+.Custleft{
+  width: 400px;
+  display: flex;
+  flex-direction: column; 
+
+  align-items: center; 
 }
-.Paragr{
-    margin-top: 16px;
-    display: flex; 
-    flex-direction: row;
-    justify-content: space-between;
-    margin-left: 161px;     
-    margin-right: 165px;
+.CustImg1{
+    padding-right: 12px;
+}
+.CustImg2{
+    padding-left: 3px;
 }
 .text{
     width: 490px;
@@ -49,12 +43,14 @@
 
 .lowertext{
     margin-top: 9px;
+    margin-bottom: -9px;
 }
 .heading{
     height: 170px;
 }
 
 .Customer h2{
+    margin-top: 36px;
     text-align: center;
     font-family: 'Grand Hotel', cursive;
     color: white;
@@ -69,7 +65,5 @@
     line-height: 27.5px;
     letter-spacing: 1px;
     color: white;
-    
-
+    margin-top: 24px;
 }
-

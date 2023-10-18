@@ -3,31 +3,30 @@
 .WhiteCoffee{
     box-sizing: border-box;
     background-color: #222831;
-    padding-top: 60px;
+    padding-top: 65px;
 }
 .wrapper{
     display: flex;
-    
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+
 }
 .left{
-    width: 700px;
-}
-.wrapper3{
-    padding-top: 133px;
-    padding-left: 133px;
-    width: 340px;
-    justify-content: column;
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 83px;
 
 }
 .right{    
-    width: 740px;   
+    width: 600px;
+    padding-right: 6px;
 }
-.wrapper4{
-    padding-top: 4px;
-    padding-right: 170px;
-    justify-content: column;
+.WCText{
+  padding-right: 30px;
+}
 
-}
 .WhiteCoffee button{
     margin-left: 2px;
     margin-top: 98px;
@@ -56,9 +55,9 @@
     letter-spacing: 5px;
     line-height: 0.9;
 }
-.WhiteCoffee pre{padding-top: 38px;
-    text-align: right;
-    
+.WhiteCoffee pre{
+    padding-top: 38px;
+    text-align: right;   
     font-family: 'Montserrat', sans-serif;
     color: white;
     font-size: 21px;
