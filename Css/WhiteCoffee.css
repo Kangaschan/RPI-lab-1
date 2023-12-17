@@ -24,7 +24,14 @@
     padding-right: 6px;
 }
 .WCText{
-  padding-right: 30px;
+    padding-right: 30px;
+    text-align: right;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 21px;
+    font-weight:initial;
+    letter-spacing: 1.55px;
+    line-height: 1.84;
 }
 
 .WhiteCoffee button{
@@ -54,25 +61,9 @@
     font-weight:initial;
     letter-spacing: 5px;
     line-height: 0.9;
+
 }
-.WhiteCoffee pre{
-    padding-top: 38px;
-    text-align: right;   
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    font-size: 21px;
-    font-weight:initial;
-    letter-spacing: 1.55px;
-    line-height: 1.84; 
-}
-.WhiteCoffee h2{ text-align: right;
-    
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    font-size: 21px;
-    font-weight:initial;
-    letter-spacing: 1.55px;
-    line-height: 1.84;    }
+
 .WhiteCoffee img{
     padding-left: 62px;
 }
